@@ -1,0 +1,12 @@
+module.exports = {
+    'ngrok': {
+        basicAuth: 'enter ngrok basic credentials. "username:password"',
+        authToken: 'enter ngrok tunnel auth token.'
+    },
+    'azure': {
+        // azure functions(app service) ftp host.
+        host: 'enter ftp host. "<something>.ftp.azurewebsites.windows.net"',
+        user: "enter ftp user.",
+        password: "enter ftp password."
+    }
+};
